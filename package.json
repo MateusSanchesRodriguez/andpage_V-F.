@@ -14,11 +14,5 @@
     "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^5.1.0",
     "sass": "^1.62.1"
-  },
-  "vercel": {
-    "builds": [
-      { "src": "gulpfile.js", "use": "@vercel/static-build" }
-    ],
-    "outputDirectory": "public"
   }
 }
